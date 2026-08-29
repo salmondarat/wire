@@ -1,7 +1,8 @@
 # CompanyOS RBAC and Resource Permission Matrix v1.0
 
-Status: Draft — Pending Gate 1 Approval
+Status: Approved — Gate 1
 Date: 2026-08-29
+Approved: 2026-08-29
 Scope: Core Platform, CRM, Sales, HR
 
 ## 1. Purpose
@@ -647,8 +648,8 @@ These deferrals do not block Gate 1 approval because v1.0 fails closed and defin
 
 | Gate | Artifact | Status | Approval date | Approver | Notes |
 |---|---|---|---|---|---|
-| Gate 1 | RBAC + Resource Permission Matrix v1.0 | Pending | — | — | ERD work is blocked until explicit approval. |
-| Gate 2 | Complete ERD v1.0 | Blocked | — | — | Requires approved Gate 1. |
-| Gate 3 | PostgreSQL Schema v1.0 | Blocked | — | — | Requires approved Gate 2. |
+| Gate 1 | RBAC + Resource Permission Matrix v1.0 | Approved | 2026-08-29 | Product owner | Approved in conversation with `APPROVED - RBAC v1.0`. |
+| Gate 2 | Complete ERD v1.0 | Approved | 2026-08-29 | Product owner | Approved in conversation with `APPROVED — Complete ERD v1.0`. |
+| Gate 3 | PostgreSQL Schema v1.0 | In progress | — | — | Authorized by approved Gate 2. |
 
 Approval phrase: `APPROVED — RBAC v1.0`
