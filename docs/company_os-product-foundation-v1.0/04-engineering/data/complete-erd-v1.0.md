@@ -1819,7 +1819,7 @@ The register is authoritative for ownership, classification, tenancy, lifecycle,
 
 | Approved RBAC resource | Primary entity/entities |
 |---|---|
-| `identity.user`, `session`, `credential`, `mfa_factor` | `user`, `session`, `credential`, `mfa_factor` |
+| `identity.user`, `session`, `credential`, `mfa_factor` | `app_user` (physical table for `user` to avoid SQL identifier ambiguity), `session`, `credential`, `mfa_factor` |
 | `organization.tenant` | `tenant` |
 | `organization.organization`, `business_unit`, `department`, `team`, `position`, `location`, `cost_center` | Same-named organization entities |
 | `organization.membership`, `team_membership` | `membership`, `membership_org_placement`, `team_membership` |
@@ -1910,6 +1910,6 @@ No deferred item changes the logical entities, ownership, cardinalities, or secu
 |---|---|---|---|---|---|
 | Gate 1 | RBAC + Resource Permission Matrix v1.0 | Approved | 2026-08-29 | Product owner | Normative input for this ERD. |
 | Gate 2 | Complete ERD v1.0 | Approved | 2026-08-29 | Product owner | Approved in conversation with `APPROVED — Complete ERD v1.0`. |
-| Gate 3 | PostgreSQL Schema v1.0 | In progress | — | — | Authorized by approved Gate 2. |
+| Gate 3 | PostgreSQL Schema v1.0 | Approved | 2026-08-29 | Product owner | Approved in conversation with `APPROVED — PostgreSQL Schema v1.0`. |
 
 Approval phrase: `APPROVED — Complete ERD v1.0`

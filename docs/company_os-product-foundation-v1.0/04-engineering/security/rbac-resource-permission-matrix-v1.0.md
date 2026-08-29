@@ -650,6 +650,6 @@ These deferrals do not block Gate 1 approval because v1.0 fails closed and defin
 |---|---|---|---|---|---|
 | Gate 1 | RBAC + Resource Permission Matrix v1.0 | Approved | 2026-08-29 | Product owner | Approved in conversation with `APPROVED - RBAC v1.0`. |
 | Gate 2 | Complete ERD v1.0 | Approved | 2026-08-29 | Product owner | Approved in conversation with `APPROVED — Complete ERD v1.0`. |
-| Gate 3 | PostgreSQL Schema v1.0 | In progress | — | — | Authorized by approved Gate 2. |
+| Gate 3 | PostgreSQL Schema v1.0 | Approved | 2026-08-29 | Product owner | Approved in conversation with `APPROVED — PostgreSQL Schema v1.0`. |
 
 Approval phrase: `APPROVED — RBAC v1.0`
