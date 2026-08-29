@@ -1,0 +1,1 @@
+- Prefers complex engineering specifications to be delivered sequentially with an explicit approval gate for each artifact before work proceeds to the next stage. Confidence: 0.95
